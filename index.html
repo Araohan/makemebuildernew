@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">        
+<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+body{
+margin:0px;
+padding:0px;}
+.dropdown-menu li
+{
+padding-bottom:10px;
+}
+.navbar .brand, .navbar .nav> li > a:hover {
+    background-color: #F56E6E;
+    border-radius: 5px;
+}
+nav{
+margin-bottom:-20px;}
+footer{
+bottom:0px;}
+.modal-header
+{
+background-color: lightcoral;
+}
+.modal-body
+{
+    height: 200px;
+    
+
+}
+.modal{
+margin-top:100px;}
+
+
+</style>
+</head>
+<body>
+<font size="3">
+<!--<img src="images/mmblogo.png" height="55" width="55" align="left"> 
+<h3 align="center">MMB</h3>-->
+<nav>
+<div class="navbar navbar-inverse">
+
+  <div class="container">
+
+    <div class="navbar-header">
+	     
+           <a id="logo-container" class="brand-logo" href="index.html">
+		   <img src="images/mmblogo.png" height="55" width="55" align="left" style="left-margin:1px"></a>
+		   </a>
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-id">
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+
+      </button>
+
+     
+
+    </div>
+    <div class="collapse navbar-collapse" id="nav-id">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+		<li class="dropdown"><a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Our Services
+		<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		    <li><a href="services.html">Land Evaluation</a></li>
+            <li><a href="services.html">Permits and Approvals</a></li>
+            <li><a href="services.html">Constrution and Architectural Projects</a></li>
+			<li><a href="services.html">Operations and Maintenance</a></li>
+			<li><a href="services.html">Sales and Marketing</a></li>
+			<li><a href="services.html">Legal Protection</a></li>
+			<li><a href="services.html">Government Policies and Programs</a></li>
+		</ul>
+		</li>
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Collaborators
+		<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		    <li><a href="#">Collaborator 1</a></li>
+            <li><a href="#">Collaborator 2</a></li>
+            <li><a href="#">Collaborator 3</a></li>
+		</ul>
+		</li>
+        <li><a href="#">Support</a></li>
+		 <li><a data-toggle="modal" href="#myModal" data-backdrop="static">Contact Us</a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Contact Us</h4>
+        </div>
+        <div class="modal-body">
+          <p>Mobile No. +91-8808888088</p>
+		  <p style="padding-bottom:50px;">Email-Id:- nknnitin.26@gmail.com</p>
+		  <p>Our Offices</p>
+		  <address>Allahabad, Delhi, Noida, Lucknow</address>
+		  
+        </div>
+                     
+      </div>
+      
+    </div>
+  </div></li>
+      </ul>
+	   <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">
+         <li><a   href="login.html" target="_self"><span class="glyphicon glyphicon-user"></span> Sign Up
+        <span style="border-left:2px solid white;padding-left:5px;" class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    
+      
+    </ul>
+    </div> <!-- /.nav-collapse -->
+</div> <!-- /.navbar -->  
+</nav> 
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	 <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+	 <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" >
+    <div class="item active">
+      <img src="images/1.jpg" alt="Chania" width="100%">
+      <div class="carousel-caption">
+        <h3>Welcome</h3>
+        <p>MMB Gurgaon Welcomes You To Our Official Website . We Provide The Best Support for Construction Projects And Much More</p>
+      </div>
+    </div>
+    <div class="item">
+	
+      <img src="images/2.jpg" alt="Chicago" width="100%">
+      <div class="carousel-caption">
+        <h3>Business Strategies</h3>
+        <p>Internet based Engineering Services Market Place</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/3.jpg" alt="New York" width="100%">
+      <div class="carousel-caption">
+        <h3>Startups and Innovators</h3>
+        <p>Partner with us to develop innovative ideas, ventures and projects in a collaborative environment of students, entrepreneurs and industry experts.</p>
+      </div>
+    </div>
+	<div class="item">
+      <img src="images/4.jpg" alt="New York" width="100%">
+      <div class="carousel-caption">
+        <h3>24x7 Support</h3>
+        <p>Get 24X7 Instant Support From Our Fabulous Support Team Anytime Anywhere. Just Give Us A Miss Call On +(91)-8875323245 And We Will Be There To Help You</p>
+      </div>
+    </div>
+	<div class="item">
+      <img src="images/5.jpg" alt="New York" width="100%">
+      <div class="carousel-caption">
+        <h3>AT M.M.B.</h3>
+        <p>We Create Innovative, Sustainable & Affordable Construction Projects</p>
+      </div>
+   </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+      </div><!-- carousel-->
+   </div><!--container-->
+   </div>
+   <br>
+	<br>
+	
+ <div class="services-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 services section-description wow fadeIn">
+	                    <h1 align="center" style="color:Blue;"><b>Our services</b></h1>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 services-box wow fadeInUp">
+                		<div class="row">
+                			<div class="col-sm-4">
+			                	<div class="services-box-icon">
+			                		<i class="fa fa-hand-o-right"></i>
+			                	</div>
+		                	</div>
+	                		<div class="col-sm-8">
+	                    		<h3>Construction Projects</h3>
+	                    		<p>Develop project plan and execute in collaboration with the landholder. 
+								Monitor plan, goals for cost, quality and schedule and resolve bottleneck. 
+								Our process keeps the client involved and informed from start to finish so they 
+								oversee the entire performance of the project.</p>
+	                    	</div>
+	                    </div>
+                    </div>
+                    <div class="col-sm-4 services-box wow fadeInDown">
+	                	<div class="row">
+                			<div class="col-sm-4">
+			                	<div class="services-box-icon">
+			                		<i class="fa fa-hand-o-right"></i>
+			                	</div>
+		                	</div>
+	                		<div class="col-sm-8">
+	                    		<h3>Permits and Approvals</h3>
+	                    		<p>Understand local bylaws and pursue the right methods for permits 
+								and approvals thus preparing projects for full compliance. 
+								Utilize local knowledge and local community resources 
+								for removing any procedural bottlenecks.</p>
+	                    	</div>
+	                    </div>
+                    </div>
+                    <div class="col-sm-4 services-box wow fadeInUp">
+	                	<div class="row">
+                			<div class="col-sm-4">
+			                	<div class="services-box-icon">
+			                		<i class="fa fa-hand-o-right"></i>
+			                	</div>
+		                	</div>
+	                		<div class="col-sm-8">
+	                    		<h3>Land Evaluation for Best Utilization</h3>
+	                    		<p>
+Analysis of land holdings for best use towards the most suitable project
+ development by market survey, business planning, cash flow planning and 
+ sales and exit strategy, to maximize value creation from the project.</p>
+	                    	</div>
+	                    </div>
+                    </div>
+	            </div>
+	        </div>
+        </div>
+		 
+	                </div>
+	            </div>
+				<br>
+				<br>
+				<button type="button" class="btn btn-lg btn-info" style="margin-left:auto;margin-right:auto;display:block;"><a href="services.html">See All Services</a></button>
+
+	        </div>
+        </div>
+		
+		
+		 <div class="container-fluid" style="padding-top:100px;">
+     <div class="jumbotron">
+     <h1 style="text-align:center;">How We Work</h1><br>
+     <div class="row">
+       <div class="col-md-4">
+          <div class="panel panel-info">
+      <div class="panel-heading">Register</div>
+      <div class="panel-body">  <span class="glyphicon glyphicon-envelope" style="font-size:30px"></span></div>
+    </div>
+    </div>
+    <div class="col-md-4">
+          <div class="panel panel-info">
+      <div class="panel-heading">Tell Your project</div>
+      <div class="panel-body"><span class="glyphicon glyphicon-search" style="font-size:30px"></span></div>
+    </div>
+    </div>
+    <div class="col-md-4">
+          <div class="panel panel-info">
+      <div class="panel-heading">Get Work Done</div>
+      <div class="panel-body"> <span class="glyphicon glyphicon-check" style="font-size:30px"></span></div>
+    </div>
+    </div>   
+    </div>
+     </div>
+     </div>
+
+		
+		
+		
+		<div class="container">
+     <h1 align="center" style="color:Blue;"><b>Why Us? </b></h1>
+	 <br>
+	  <div class="col-md-8">
+            <p>We assess all the physical components and services that go into creating an 
+			affordable housing project and identify the best providers globally.
+			Our focus is to maximize local component manufacturing and 
+			create economies of scale in everything that we procure.  </p>
+        </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="imgAbt">
+                <img width="200" height="150" src="images/6.jpg">
+            </div>
+		</div>
+	</div>
+			<br>
+		<br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="imgAbt">
+                <img width="200" height="150" src="images/7.jpg">
+            </div>
+        
+		 </div><div class="col-md-8">
+            <p>Our team has combined industry experience and a high success rate with funding applications.
+			Plus, we put 75 percent of our fees at risk on every project—so we're right down 
+			there in the trenches beside you. We're in this together. 
+			Your pain is our pain. Our success is your success.</p>
+        </div>
+		</div>
+		</div>
+       
+		
+       
+    </div>
+</div>
+			
+	<br>
+<br>	
+		</div>
+		<div class="container-fluid">
+		 <div class="jumbotron">
+			  <h1 align="center">Find A Contractor</h1>
+			  <br>
+    
+			  
+			  
+			  
+			  
+				  
+			  
+  <div class="row">
+    <div class="col-lg-4">
+      <a href="#">Gurgaon Contractors</a>
+	  </div>
+    <div class="col-lg-4">
+      <a href="#">Pune Contractors</a>
+    </div>
+	<div class="col-lg-4">
+      <a href="#">New Delhi Contractors</a>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+     <div class="col-lg-4">
+      <a href="#">Chandigarh Contractors</a>
+	  </div>
+    <div class="col-lg-4">
+      <a href="#">Dehradun Contractors</a>
+    </div>
+	<div class="col-lg-4">
+      <a href="#">Noida Contractors</a>
+    </div>
+  </div>
+  			  <br>
+  <div class="row">
+    <div class="col-lg-4">
+      <a href="#">Bangalore Contractors</a>
+	  </div>
+    <div class="col-lg-4">
+      <a href="#">Mumbai Contractors</a>
+    </div>
+	<div class="col-lg-4">
+      <a href="#">Lucknow Contractors</a>
+    </div>
+  </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <button type="button" class="btn btn-lg btn-info" style="margin-left:auto;margin-right:auto;display:block;">Browse All Contractors</button>
+</div>
+<br>
+<br>		
+<!-- Start of footer-->
+<footer>
+<div class="navbar navbar-inverse">
+<div class="container">
+<div class="col-md-3">
+<ul class="footer-nav" style="list-style-type:none;">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Using MMB</h3>
+<li><a href="index.html">Home</a></li>
+</div>
+<div class="row">
+<li><a href="about.html">About us</a></li>
+</div>
+<div class="row">
+<li><a href="#">Support</a></li>
+</div>
+<div class="row">
+<li><a href="#">FAQs</a></li>
+</div>
+<div class="row">
+<li><a href="#">News</a></li>
+</div>
+</ul>
+</div>
+
+<div class="col-md-3">
+<ul class="footer-nav" style="list-style-type:none;">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Legal</h3>
+</div>
+<div class="row">
+<li><a href="index.html">Terms of Service</a></li>
+</div>
+<div class="row">
+<li><a href="#">Privacy Policy</a></li>
+</div>
+<div class="row">
+<li><a href="#">Services Agreement</a></li>
+</div>
+</ul>
+</div>
+<div class="col md-3">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Subscribe to our newsletter</h4>
+<textarea id="Subscribe" placeholder="Enter Your Email" cols="30" rows="1.5"></textarea>
+<button id="SubscribeButton" class="btn btn-default btn-sm" style="background-color:#1E90FF;position:absolute;margin-left:10px;">Subscribe</button> 
+</div>
+</div>
+<div class="col md-3" style="padding-top:15px;padding-right:20px;float:right;">
+<div class="row">
+<h4 style="color:yellow;">Social Media</h4>
+<a href="www.facebook.com" class="fa fa-facebook"></a>
+<a href="www.twitter.com" class="fa fa-twitter"></a>
+<a href="www.google.com" class="fa fa-google"></a>
+<a href="www.linkedin.com" class="fa fa-linkedin"></a>
+<br>
+<br>
+<div style="float:right;margin-right:50px;">
+<p><font size="3" color="yellow"> Contact Us: <br> Call 24*7 at <br> 1800567555</p></font></div>
+
+</div>
+</div>
+<div class="bottom-footer">
+<div style="text-align:center;"><i class="fa fa-copyright"></i>2017 All Rights Reserved.</div>
+
+
+</div>
+</div>	</footer>	
+<!-- End of footer-->
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+  </body>
+</html>

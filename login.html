@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+<style>
+body
+{
+background:url(images/construct.jpg);
+background-repeat:no-repeat;
+}
+.navbar .brand, .navbar .nav> li > a:hover {
+    background-color: #F56E6E;
+    border-radius: 5px;
+}
+  
+.modal-header
+{
+background-color: lightcoral;
+}
+
+
+#container
+{background-color:white;
+
+}
+
+  </style>
+ <body>
+<font size="3">
+        <nav>
+<div class="navbar navbar-inverse">
+
+  <div class="container">
+
+    <div class="navbar-header">
+	     
+           <a id="logo-container" class="brand-logo" href="index.html">
+		   <img src="images/mmblogo.png" height="55" width="55" align="left" style="left-margin:1px"></a>
+		   </a>
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-id">
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+
+      </button>
+
+     
+
+    </div>
+    <div class="collapse navbar-collapse" id="nav-id">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+		<li class="dropdown"><a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Our Services
+		<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		    <li><a href="services.html">Land Evaluation</a></li>
+            <li><a href="services.html">Permits and Approvals</a></li>
+            <li><a href="services.html">Constrution and Architectural Projects</a></li>
+			<li><a href="services.html">Operations and Maintenance</a></li>
+			<li><a href="services.html">Sales and Marketing</a></li>
+			<li><a href="services.html">Legal Protection</a></li>
+			<li><a href="services.html">Government Policies and Programs</a></li>
+		</ul>
+		</li>
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Collaborators
+		<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		    <li><a href="#">Collaborator 1</a></li>
+            <li><a href="#">Collaborator 2</a></li>
+            <li><a href="#">Collaborator 3</a></li>
+		</ul>
+		</li>
+        <li><a href="#">Support</a></li>
+		<li><a data-toggle="modal" href="#myModal" data-backdrop="static">Contact Us</a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" style="margin-top:100px;">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Contact Us</h4>
+        </div>
+        <div class="modal-body" style="height:200px;">
+          <p>Mobile No. +91-8808888088</p>
+		  <p style="padding-bottom:50px;">Email-Id:- nknnitin.26@gmail.com</p>
+		  <p>Our Offices</p>
+		  <address>Allahabad, Delhi, Noida, Lucknow</address>
+		  
+        </div>
+                     
+      </div>
+      
+    </div>
+  </div></li>
+      </ul>
+	   <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">
+         <li><a   href="login.html" target="_self"><span class="glyphicon glyphicon-user"></span> Sign Up
+        <span style="border-left:2px solid white;padding-left:5px;" class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    
+      
+    </ul>
+    </div> <!-- /.nav-collapse -->
+</div> <!-- /.navbar -->  
+</nav>
+
+     <div id="container" >
+      <center><h1>Login Page</h1></center>
+
+<form class="form-horizontal">
+       <div class="form-group">
+    <div class="col-xs-10"> 
+        <label for="email">Email address:</label>
+     <input type="text" class="form-control" name="email" placeholder="Email" width="200px"></br>
+</div>
+</div>
+  <div class="form-group">
+  <div class="col-xs-10"> <label for="email">Password:</label>
+   <input tpye="password" class="form-control" name="password" placeholder="Password" width="200px">
+    </div>
+    </div>
+   <div class="form-contorl">
+        <div class="checkbox">
+    <label><input type="checkbox" name="rem">Remember Me</label>
+</div>
+</div>
+<br/>
+ <button type="button" class="btn btn-default" style="margin-right: 50px; background-color:limegreen;color:white">Sign In</button>
+<button type="button" data-toggle="modal" href="#myModal1" class="btn btn-primary" data-backdrop="static">Register</button>
+</form>
+   </div>
+</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-eye-open"></span> Registration</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+           <div class="form-group">
+              <label for="mail"><span class="glyphicon glyphicon-eye-open"></span>E-mail</label>
+              <input type="text" class="form-control" id="mail" placeholder="Enter E-mail">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <label for="Gender">Gender
+                    <input type="radio" name="gender" value="male" checked> Male
+                      <input type="radio" name="gender" value="female"> Female
+             <div class="form-group">
+              <label for="date"><span class="glyphicon glyphicon-eye-open"></span>DOB</label>
+              <input type="date" class="form-control" name="bday">
+            </div>
+              
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Not a member? <a href="#">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+</div>
+ <footer>
+<div class="navbar navbar-inverse">
+<div class="container">
+<div class="col-md-3">
+<ul class="footer-nav" style="list-style-type:none;">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Using MMB</h3>
+<li><a href="index.html">Home</a></li>
+</div>
+<div class="row">
+<li><a href="about.html">About us</a></li>
+</div>
+<div class="row">
+<li><a href="#">Support</a></li>
+</div>
+<div class="row">
+<li><a href="#">FAQs</a></li>
+</div>
+<div class="row">
+<li><a href="#">News</a></li>
+</div>
+</ul>
+</div>
+
+<div class="col-md-3">
+<ul class="footer-nav" style="list-style-type:none;">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Legal</h3>
+</div>
+<div class="row">
+<li><a href="index.html">Terms of Service</a></li>
+</div>
+<div class="row">
+<li><a href="#">Privacy Policy</a></li>
+</div>
+<div class="row">
+<li><a href="#">Services Agreement</a></li>
+</div>
+</ul>
+</div>
+<div class="col md-3">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Subscribe to our newsletter</h4>
+<textarea id="Subscribe" placeholder="Enter Your Email" cols="30" rows="1.5"></textarea>
+<button id="SubscribeButton" class="btn btn-default btn-sm" style="background-color:#1E90FF;position:absolute;margin-left:10px;">Subscribe</button> 
+</div>
+</div>
+<div class="col md-3" style="padding-top:15px;padding-right:20px;float:right;">
+<div class="row">
+<h4 style="color:yellow;">Social Media</h4>
+<a href="www.facebook.com" class="fa fa-facebook"></a>
+<a href="www.twitter.com" class="fa fa-twitter"></a>
+<a href="www.google.com" class="fa fa-google"></a>
+<a href="www.linkedin.com" class="fa fa-linkedin"></a>
+<br>
+<br>
+<div style="float:right;margin-right:50px;">
+<p><font size="3" color="yellow"> Contact Us: <br> Call 24*7 at <br> 1800567555</p></font></div>
+
+</div>
+</div>
+<div class="bottom-footer">
+<div style="text-align:center;"><i class="fa fa-copyright"></i>2017 All Rights Reserved.</div>
+
+
+</div>
+</div>	</footer>
+
+
+</body>
+</html>

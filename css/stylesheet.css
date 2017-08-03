@@ -1,0 +1,25 @@
+
+
+#container
+{
+border: 3px solid;
+border-radius: 5px;
+padding:0px 0px 50px 50px;
+margin:100px 400px 400px 500px;
+box-shadow: 10px 10px grey;
+}
+
+#container, h1
+{
+padding-bottom: 50px;
+}
+ @media (max-width: 600px) {
+      #container {
+        margin:50px;
+          }
+   }
+   body
+   {
+	b   
+	   
+   }

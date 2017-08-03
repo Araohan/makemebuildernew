@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="jquery-3.2.1"></script>
+</head>
+<body>
+<script>$(document).ready(function(c) {
+	$('.close').on('click', function(c){
+		$('.login-form').fadeOut('slow', function(c){
+	  		$('.login-form').remove();
+		});
+	});	  
+});
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">        
+<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.dropdown-menu li
+{
+padding-bottom:10px;
+}
+
+</style>
+</head>
+<body>
+<font size="3">
+<!--<img src="images/mmblogo.png" height="55" width="55" align="left"> 
+<h3 align="center">MMB</h3>-->
+<div class="navbar-fixed navbar-inverse" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+	     
+           <a id="logo-container" class="brand-logo" href="index.html">
+		   <img src="images/mmblogo.png" height="55" width="55" align="left" style="left-margin:1px"></a>
+		   </a>
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-id">
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+
+      </button>
+
+     
+
+    </div>
+    <div class="collapse navbar-collapse" id="nav-id">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services
+		<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		    <li><a href="#">Land Evaluation</a></li>
+            <li><a href="#">Permits and Approvals</a></li>
+            <li><a href="#">Constrution and Architectural Projects</a></li>
+			<li><a href="#">Operations and Maintenance</a></li>
+			<li><a href="#">Sales and Marketing</a></li>
+			<li><a href="#">Legal Protection</a></li>
+			<li><a href="#">Government Policies and Programs</a></li>
+		</ul>
+		</li>
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Collaborators
+		<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		    <li><a href="#">Collaborator 1</a></li>
+            <li><a href="#">Collaborator 2</a></li>
+            <li><a href="#">Collaborator 3</a></li>
+		</ul>
+		</li>
+        <li><a href="#">Support</a></li>
+		<li><a href="#">Contact us</a></li>
+      </ul>
+	   <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+    </div> <!-- /.nav-collapse -->
+</div>
+
+</div>
+
+
+
+<div class="login-form">
+			<div class="close"> </div>
+					<div class="head">
+					</div>
+					<div class="head-info">
+						<h1>SIGN UP</h1>
+						<h2>Hello and Welcome! Tell us a bit about you</h2>
+					</div>
+				<form>
+					<li>
+						<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" ><a href="#" class=" icon user"></a>
+					</li>
+					<li>
+						<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" ><a href="#" class=" icon mail"></a>
+					</li>
+					<li>
+						<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"><a href="#" class=" icon lock"></a>
+					</li>
+					<div class="p-container">
+								<input type="submit" onclick="myFunction()" value="SIGN UP" >
+							<div class="clear"> </div>
+					</div>
+				</form>
+				<div class="social-icons">
+							<div class="but-bottom">
+							<a href="#" class="account"><p>Already have an account?</p></a>
+							<a href="#" class="trouble"><p>Trouble signing in?</p></a><div class="clear"> </div></div>
+							<a href="#" class="social-account"><h3>or sign in with social account</h3></a>
+							<a href="#"><ul class="facebook">
+								<li><img src="images/fb.png" />Facebook</li>
+							</ul></a>
+							<a href="#"><ul class="twitter">
+								<li><img src="images/tw.png" />Twitter</li>
+							</ul></a>
+							<div class="clear"> </div>
+				</div>
+				<div class="social-icons-1">
+							<a href="#"><ul class="google-plus">
+								<li><img src="images/gp.png" />Google +</li>
+							</ul></a>
+							<a href="#"><ul class="linkedIn">
+								<li><img src="images/ln.png" />LinkedIn</li>
+							</ul></a>
+							<div class="clear"> </div>
+				</div>
+			</div>
+			
+	<div class="navbar navbar-inverse">
+<div class="container">
+<div class="col-md-3">
+<ul class="footer-nav">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Using MMB</h3>
+<li><a href="index.html">Home</a></li>
+</div>
+<div class="row">
+<li><a href="#">About us</a></li>
+</div>
+<div class="row">
+<li><a href="#">Support</a></li>
+</div>
+<div class="row">
+<li><a href="#">FAQs</a></li>
+</div>
+<div class="row">
+<li><a href="#">News</a></li>
+</div>
+</ul>
+</div>
+
+<div class="col-md-3">
+<ul class="footer-nav">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Legal</h3>
+</div>
+<div class="row">
+<li><a href="index.html">Terms of Service</a></li>
+</div>
+<div class="row">
+<li><a href="#">Privacy Policy</a></li>
+</div>
+<div class="row">
+<li><a href="#">Services Agreement</a></li>
+</div>
+</ul>
+</div>
+<div class="col md-3">
+<div class="row">
+<h4 style="color:yellow;padding-top:20px;">Subscribe to our newsletter</h4>
+<textarea id="Subscribe" placeholder="Enter Your Email" cols="30" rows="1.5"></textarea>
+<button id="SubscribeButton" class="btn btn-default btn-sm" style="background-color:#1E90FF;position:absolute;margin-left:10px;">Subscribe</button> 
+</div>
+</div>
+<div class="col md-3" style="padding-top:15px;padding-right:20px;float:right;">
+<div class="row">
+<h4 style="color:yellow;">Social Media</h4>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<br>
+<br>
+<div style="float:right;margin-right:50px;">
+<p><font size="3" color="yellow"> Contact Us: <br> Call 24*7 at <br> 1800567555</p></font></div>
+
+</div>
+</div>
+<div class="bottom-footer">
+<div style="text-align:center;"><i class="fa fa-copyright"></i>2016 All Rights Reserved.</div>
+
+
+</div>
+</div>				
+						
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</body>
+			</html>
